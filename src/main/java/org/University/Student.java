@@ -2,15 +2,15 @@ package org.University;
 
 public class Student {
 
-    protected String fullName;
-    protected int currentCourseNumber, universityID;
-    protected float avgExamScore;
+    protected String fullName, universityID;
+    protected double currentCourseNumber;
+    protected double avgExamScore;
 
     public String getFullName() {return fullName;}
-    public int getUniversityID() {return universityID;}
-    public int getCurrentCourseNumber() {return currentCourseNumber;}
+    public String getUniversityID() {return universityID;}
+    public double getCurrentCourseNumber() {return currentCourseNumber;}
 
-    public float getAvgExamScore() {
+    public double getAvgExamScore() {
         return avgExamScore;
     }
 
@@ -18,7 +18,7 @@ public class Student {
         return "Имя: " + fullName + ", ID университета: " + universityID + ", номер курса: " + currentCourseNumber + ", средний балл: " + avgExamScore;
     }
 
-    public Student(String fullName, int universityID, int currentCourseNumber, float avgExamScore) {
+    public Student(String fullName, String universityID, double currentCourseNumber, double avgExamScore) {
         this.fullName = fullName;
         this.universityID = universityID;
         this.currentCourseNumber = currentCourseNumber;

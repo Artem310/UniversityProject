@@ -1,13 +1,32 @@
 package org.University;
 
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        University university1 = new University(1, "Harvard University", "Harvard", 1636, StudyProfile.MEDICINE);
-        System.out.println(university1);
+        List<StudentComparator> studentComparators = Stream.of(EnumStudentCompare.values()).map(EnumStudentCompare::getStudentComparator).toList();
+        for (StudentComparator st : studentComparators) {
+            System.out.println(st);
+        }
+        List<UniversityComparator> universityComparators = Stream.of(EnumUniversityCompare.values()).map(EnumUniversityCompare::getUniversityComparator).toList();
+        for (UniversityComparator un : universityComparators) {
+            System.out.println(un);
+        }
 
-        Student student1 = new Student("Ivan Ivanov", 1, 1, 55);
-        System.out.println(student1);
 
+
+        List<Student> stud = ReadingFromExcel.getStudents().stream().sorted(studentComparators.get(0)).toList();
+        stud.forEach(System.out::println);
+
+        System.out.println();
+
+        List<University> univ = ReadingFromExcel.getUniversity().stream().sorted(universityComparators.get(0)).toList();
+        univ.forEach(System.out::println);
     }
+
 }
