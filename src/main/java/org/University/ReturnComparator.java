@@ -1,7 +1,5 @@
 package org.University;
 
-import java.util.Comparator;
-
 public class ReturnComparator {
     public static StudentComparator getStudentComparator(EnumStudentCompare enumStudentCompare) {
         return switch (enumStudentCompare) {
