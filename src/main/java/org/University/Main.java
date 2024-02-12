@@ -1,6 +1,7 @@
 package org.University;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,23 +11,35 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         List<StudentComparator> studentComparators = Stream.of(EnumStudentCompare.values()).map(EnumStudentCompare::getStudentComparator).toList();
-        for (StudentComparator st : studentComparators) {
-            System.out.println(st);
-        }
         List<UniversityComparator> universityComparators = Stream.of(EnumUniversityCompare.values()).map(EnumUniversityCompare::getUniversityComparator).toList();
-        for (UniversityComparator un : universityComparators) {
-            System.out.println(un);
-        }
-
-
-
+//
         List<Student> stud = ReadingFromExcel.getStudents().stream().sorted(studentComparators.get(0)).toList();
-        stud.forEach(System.out::println);
-
-        System.out.println();
-
+//        stud.forEach(System.out::println);
+//        System.out.println();
         List<University> univ = ReadingFromExcel.getUniversity().stream().sorted(universityComparators.get(0)).toList();
-        univ.forEach(System.out::println);
+//        univ.forEach(System.out::println);
+//
+//        System.out.println();
+//
+//        String jsonStud = JsonUtil.serializationStudents(stud);
+//        System.out.println(jsonStud);
+//        System.out.println();
+//        String jsonUniv = JsonUtil.serializationUniversities(univ);
+//        System.out.println(jsonUniv);
+//
+//        List<Student> studentCollection = JsonUtil.deserializationStudents(jsonStud);
+//        List<University> universityCollection = JsonUtil.deserializationUniversities(jsonUniv);
+//
+//        System.out.println("Количество элементов коллекций студентов совпадает: " + (stud.size() == studentCollection.size()));
+//        System.out.println("Количество элементов коллекций университетов совпадает: " + (univ.size() == universityCollection.size()));
+//        System.out.println();
+
+//        XlsWriter xlsWriter = new XlsWriter();
+//        xlsWriter.writeExcel();
+
+            UtilStatistics.getStatistic(univ, stud).forEach(System.out::println);
+        
+
     }
 
 }
