@@ -3,11 +3,11 @@ package org.University;
 public class Statistics {
     private StudyProfile studyProfile;
     private double avgScore;
-    private int quantityStudentsByProfile;
-    private int quantityUniversitiesByProfile;
+    private long quantityStudentsByProfile;
+    private long quantityUniversitiesByProfile;
     private String nameUniversity;
 
-    public Statistics(StudyProfile studyProfile, double avgScore, int quantityStudentsByProfile, int quantityUniversitiesByProfile, String nameUniversity) {
+    public Statistics(StudyProfile studyProfile, double avgScore, long quantityStudentsByProfile, long quantityUniversitiesByProfile, String nameUniversity) {
         this.studyProfile = studyProfile;
         this.avgScore = avgScore;
         this.quantityStudentsByProfile = quantityStudentsByProfile;
@@ -20,10 +20,10 @@ public class Statistics {
     public double getAvgScore() {
         return avgScore;
     }
-    public int getQuantityStudentsByProfile() {
+    public long getQuantityStudentsByProfile() {
         return quantityStudentsByProfile;
     }
-    public int getQuantityUniversitiesByProfile() {
+    public long getQuantityUniversitiesByProfile() {
         return quantityUniversitiesByProfile;
     }
     public String getNameUniversity() {
@@ -46,6 +46,6 @@ public class Statistics {
     }
 
     public String toString() {
-        return studyProfile.getTranslate() + " " + avgScore + " " + quantityStudentsByProfile + " " + quantityUniversitiesByProfile + " " + nameUniversity;
+        return "Профиль: " + studyProfile.getTranslate() + ", средний балл: " + avgScore + ", кол-во студентов: " + quantityStudentsByProfile + ", кол-во университетов: " + quantityUniversitiesByProfile + ", названия универов: " + nameUniversity;
     }
 }

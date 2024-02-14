@@ -38,7 +38,9 @@ public class Main {
 //        xlsWriter.writeExcel();
 
             UtilStatistics.getStatistic(univ, stud).forEach(System.out::println);
-        
+//        for (int i = 0; i < stud.size(); i++) {
+//            System.out.println(stud.get(i).getAvgExamScore());
+//        }
 
     }
 

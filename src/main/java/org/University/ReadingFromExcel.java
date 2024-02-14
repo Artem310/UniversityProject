@@ -37,10 +37,10 @@ public class ReadingFromExcel {
                     case 1:
                         fullName = cell.getStringCellValue();
                         break;
-                    case 3:
+                    case 2:
                         currentCourseNumber = cell.getNumericCellValue();
                         break;
-                    case 4:
+                    case 3:
                         avgExamScore = cell.getNumericCellValue();
                         break;
                 }
