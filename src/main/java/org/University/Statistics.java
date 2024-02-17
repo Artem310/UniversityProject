@@ -1,16 +1,19 @@
 package org.University;
 
+import java.math.BigDecimal;
+import java.util.Optional;
+
 public class Statistics {
     private StudyProfile studyProfile;
-    private double avgScore;
-    private long quantityStudentsByProfile;
+    private Optional<Double> avgScore;
+    private Optional<Long> quantityStudentsByProfile;
     private long quantityUniversitiesByProfile;
     private String nameUniversity;
 
     public Statistics(StudyProfile studyProfile, double avgScore, long quantityStudentsByProfile, long quantityUniversitiesByProfile, String nameUniversity) {
         this.studyProfile = studyProfile;
-        this.avgScore = avgScore;
-        this.quantityStudentsByProfile = quantityStudentsByProfile;
+        this.avgScore = Optional.of(avgScore);
+        this.quantityStudentsByProfile = Optional.of(quantityStudentsByProfile);
         this.quantityUniversitiesByProfile = quantityUniversitiesByProfile;
         this.nameUniversity = nameUniversity;
     }
@@ -18,9 +21,9 @@ public class Statistics {
         return studyProfile;
     }
     public double getAvgScore() {
-        return avgScore;
+        return avgScore.get();
     }
-    public long getQuantityStudentsByProfile() {
+    public Optional<Long> getQuantityStudentsByProfile() {
         return quantityStudentsByProfile;
     }
     public long getQuantityUniversitiesByProfile() {
@@ -33,10 +36,10 @@ public class Statistics {
         this.studyProfile = studyProfile;
     }
     public void setAvgScore(double avgScore) {
-        this.avgScore = avgScore;
+        this.avgScore = Optional.of(avgScore);
     }
-    public void setQuantityStudentsByProfile(int quantityStudentsByProfile) {
-        this.quantityStudentsByProfile = quantityStudentsByProfile;
+    public void setQuantityStudentsByProfile(long quantityStudentsByProfile) {
+        this.quantityStudentsByProfile = Optional.of(quantityStudentsByProfile);
     }
     public void setQuantityUniversitiesByProfile(int quantityUniversitiesByProfile) {
         this.quantityUniversitiesByProfile = quantityUniversitiesByProfile;
@@ -46,6 +49,6 @@ public class Statistics {
     }
 
     public String toString() {
-        return "Профиль: " + studyProfile.getTranslate() + ", средний балл: " + avgScore + ", кол-во студентов: " + quantityStudentsByProfile + ", кол-во университетов: " + quantityUniversitiesByProfile + ", названия универов: " + nameUniversity;
+        return "Профиль: " + studyProfile.getTranslate() + ", средний балл: " + avgScore.get() + ", кол-во студентов: " + quantityStudentsByProfile.get() + ", кол-во университетов: " + quantityUniversitiesByProfile + ", названия универов: " + nameUniversity;
     }
 }

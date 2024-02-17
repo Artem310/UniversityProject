@@ -1,12 +1,9 @@
 package org.University;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class UtilStatistics {
 
@@ -30,21 +27,17 @@ public class UtilStatistics {
 
         List<Statistics> finalStatistics = statistics;
         statFinal = profiles.stream().map(profile -> {
-            double avgScore = finalStatistics.stream().filter(fs -> fs.getStudyProfile().equals(profile)).mapToDouble(Statistics::getAvgScore).sum();
-            long quantityStudentsByProfile = finalStatistics.stream().filter(fs -> fs.getStudyProfile().equals(profile)).mapToLong(Statistics::getQuantityStudentsByProfile).sum();
+            Optional<Double> avgScore = Optional.of(finalStatistics.stream().filter(fs -> fs.getStudyProfile().equals(profile)).mapToDouble(Statistics::getAvgScore).sum());
+            Optional<Long> quantityStudentsByProfile = Optional.of(finalStatistics.stream().filter(fs -> fs.getStudyProfile().equals(profile)).mapToLong(stat -> {return stat.getQuantityStudentsByProfile().get();}).sum());
+            Optional<Long> q = quantityStudentsByProfile.map(value -> (!(value == null || value == 0)) ? value : 1L);
             long quantityUniversitiesByProfile = finalStatistics.stream().filter(fs -> fs.getStudyProfile().equals(profile)).mapToLong(Statistics::getQuantityUniversitiesByProfile).findAny().getAsLong();
             String nameUniversity = finalStatistics.stream().filter(fs -> fs.getStudyProfile().equals(profile)).map(Statistics::getNameUniversity).findFirst().get();
-            return new Statistics(profile, avgScore/quantityStudentsByProfile,quantityStudentsByProfile, quantityUniversitiesByProfile, nameUniversity);
+            BigDecimal avgScoreDecimal = BigDecimal.valueOf(avgScore.get() / q.get());
+            return new Statistics(profile, avgScoreDecimal.setScale(2, RoundingMode.HALF_UP).doubleValue(), quantityStudentsByProfile.get(), quantityUniversitiesByProfile, nameUniversity);
         }).toList();
-
 
         return statFinal;
     }
-
-
-
-
-
 
     private UtilStatistics() {
 
