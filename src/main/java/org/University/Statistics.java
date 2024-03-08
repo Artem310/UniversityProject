@@ -1,9 +1,12 @@
 package org.University;
 
-import java.math.BigDecimal;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Optional;
-
+@XmlRootElement(name = "StatisticEntry")
 public class Statistics {
+
     private StudyProfile studyProfile;
     private Optional<Double> avgScore;
     private Optional<Long> quantityStudentsByProfile;
@@ -17,18 +20,26 @@ public class Statistics {
         this.quantityUniversitiesByProfile = quantityUniversitiesByProfile;
         this.nameUniversity = nameUniversity;
     }
+    public Statistics() {}
+
+    @XmlElement
     public StudyProfile getStudyProfile() {
         return studyProfile;
     }
+
+    @XmlElement
     public double getAvgScore() {
         return avgScore.get();
     }
+
     public Optional<Long> getQuantityStudentsByProfile() {
         return quantityStudentsByProfile;
     }
+
     public long getQuantityUniversitiesByProfile() {
         return quantityUniversitiesByProfile;
     }
+
     public String getNameUniversity() {
         return nameUniversity;
     }

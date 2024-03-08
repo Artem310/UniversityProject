@@ -1,13 +1,20 @@
 package org.University;
 
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.*;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.SimpleFormatter;
 import java.util.stream.Collectors;
+
+import static org.University.Main.loggerMain;
 
 public class UtilStatistics {
 
     public static List<Statistics> getStatistic(List<University> universities, List<Student> students) {
+
         List<Statistics> statistics = new ArrayList<>();
         List<StudyProfile> profiles = universities.stream().map(University::getMainProfile).distinct().toList();
         List<Statistics> statFinal = new ArrayList<>();
@@ -36,6 +43,7 @@ public class UtilStatistics {
             return new Statistics(profile, avgScoreDecimal.setScale(2, RoundingMode.HALF_UP).doubleValue(), quantityStudentsByProfile.get(), quantityUniversitiesByProfile, nameUniversity);
         }).toList();
 
+        loggerMain.log(Level.INFO, statFinal.toString());
         return statFinal;
     }
 

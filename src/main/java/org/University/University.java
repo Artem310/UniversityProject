@@ -1,9 +1,15 @@
 package org.University;
 
-public class University {
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(name = "UniversityEntry")
+public class University {
+    @XmlElement
     protected String id, fullName, shortName;
+    @XmlElement
     protected double yearOfFoundation;
+    @XmlElement
     protected StudyProfile mainProfile;
 
         public String getId() {return id;}
@@ -22,6 +28,7 @@ public class University {
             this.yearOfFoundation = yearOfFoundation;
             this.mainProfile = mainProfile;
     }
+    public University() {}
 
     public void setMainProfile(Enum mainProfile) {
             this.mainProfile = (StudyProfile) mainProfile;

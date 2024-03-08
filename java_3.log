@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-06T09:43:34.101064Z</date>
+  <millis>1709718214101</millis>
+  <nanos>64000</nanos>
+  <sequence>2</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Searching jaxb.properties</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.101667Z</date>
+  <millis>1709718214101</millis>
+  <nanos>667000</nanos>
+  <sequence>3</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.102364Z</date>
+  <millis>1709718214102</millis>
+  <nanos>364000</nanos>
+  <sequence>4</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.102609Z</date>
+  <millis>1709718214102</millis>
+  <nanos>609000</nanos>
+  <sequence>5</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.context.factory</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.102843Z</date>
+  <millis>1709718214102</millis>
+  <nanos>843000</nanos>
+  <sequence>6</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.103024Z</date>
+  <millis>1709718214103</millis>
+  <nanos>24000</nanos>
+  <sequence>7</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContext</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.103221Z</date>
+  <millis>1709718214103</millis>
+  <nanos>221000</nanos>
+  <sequence>8</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.104458Z</date>
+  <millis>1709718214104</millis>
+  <nanos>458000</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Searching META-INF/services</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.105238Z</date>
+  <millis>1709718214105</millis>
+  <nanos>238000</nanos>
+  <sequence>10</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Configured factorty class:com.sun.xml.bind.v2.ContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.106457Z</date>
+  <millis>1709718214106</millis>
+  <nanos>457000</nanos>
+  <sequence>11</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>newInstance</method>
+  <thread>1</thread>
+  <message>loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/Users/at/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/com/sun/xml/bind/v2/ContextFactory.class</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:34.110740Z</date>
+  <millis>1709718214110</millis>
+  <nanos>740000</nanos>
+  <sequence>12</sequence>
+  <logger>com.sun.xml.bind.v2.ContextFactory</logger>
+  <level>FINE</level>
+  <class>com.sun.xml.bind.v2.ContextFactory</class>
+  <method>createContext</method>
+  <thread>1</thread>
+  <message>Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-06T09:43:57.394977Z</date>
+  <millis>1709718237394</millis>
+  <nanos>977000</nanos>
+  <sequence>0</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start program</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.114452Z</date>
+  <millis>1709718238114</millis>
+  <nanos>452000</nanos>
+  <sequence>1</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.UtilStatistics</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>[Профиль: Физика, средний балл: 4.54, кол-во студентов: 8, кол-во университетов: 2, названия универов: Московский Выдуманный Университет, Московский Придуманный Институт, Профиль: Медицина, средний балл: 4.33, кол-во студентов: 3, кол-во университетов: 3, названия универов: Московский Государственный Медицинский Университет, Тамбовский Университет Медицины, Самарский Медицинский Институт, Профиль: Лингвистика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Воронежский Литературно-Переводческий Университет, Профиль: Математика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Казанский Университет Вычислений]</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.251830Z</date>
+  <millis>1709718238251</millis>
+  <nanos>830000</nanos>
+  <sequence>2</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Searching jaxb.properties</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.252523Z</date>
+  <millis>1709718238252</millis>
+  <nanos>523000</nanos>
+  <sequence>3</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.253244Z</date>
+  <millis>1709718238253</millis>
+  <nanos>244000</nanos>
+  <sequence>4</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.253533Z</date>
+  <millis>1709718238253</millis>
+  <nanos>533000</nanos>
+  <sequence>5</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.context.factory</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.253779Z</date>
+  <millis>1709718238253</millis>
+  <nanos>779000</nanos>
+  <sequence>6</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.253970Z</date>
+  <millis>1709718238253</millis>
+  <nanos>970000</nanos>
+  <sequence>7</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContext</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.254195Z</date>
+  <millis>1709718238254</millis>
+  <nanos>195000</nanos>
+  <sequence>8</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.255406Z</date>
+  <millis>1709718238255</millis>
+  <nanos>406000</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Searching META-INF/services</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.256218Z</date>
+  <millis>1709718238256</millis>
+  <nanos>218000</nanos>
+  <sequence>10</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Configured factorty class:com.sun.xml.bind.v2.ContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.257607Z</date>
+  <millis>1709718238257</millis>
+  <nanos>607000</nanos>
+  <sequence>11</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>newInstance</method>
+  <thread>1</thread>
+  <message>loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/Users/at/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/com/sun/xml/bind/v2/ContextFactory.class</message>
+</record>
+<record>
+  <date>2024-03-06T09:43:58.262368Z</date>
+  <millis>1709718238262</millis>
+  <nanos>368000</nanos>
+  <sequence>12</sequence>
+  <logger>com.sun.xml.bind.v2.ContextFactory</logger>
+  <level>FINE</level>
+  <class>com.sun.xml.bind.v2.ContextFactory</class>
+  <method>createContext</method>
+  <thread>1</thread>
+  <message>Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-06T09:46:54.630372Z</date>
+  <millis>1709718414630</millis>
+  <nanos>372000</nanos>
+  <sequence>0</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start program</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.406357Z</date>
+  <millis>1709718415406</millis>
+  <nanos>357000</nanos>
+  <sequence>1</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.UtilStatistics</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>[Профиль: Физика, средний балл: 4.54, кол-во студентов: 8, кол-во университетов: 2, названия универов: Московский Выдуманный Университет, Московский Придуманный Институт, Профиль: Медицина, средний балл: 4.33, кол-во студентов: 3, кол-во университетов: 3, названия универов: Московский Государственный Медицинский Университет, Тамбовский Университет Медицины, Самарский Медицинский Институт, Профиль: Лингвистика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Воронежский Литературно-Переводческий Университет, Профиль: Математика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Казанский Университет Вычислений]</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.542839Z</date>
+  <millis>1709718415542</millis>
+  <nanos>839000</nanos>
+  <sequence>2</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Searching jaxb.properties</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.543535Z</date>
+  <millis>1709718415543</millis>
+  <nanos>535000</nanos>
+  <sequence>3</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.544452Z</date>
+  <millis>1709718415544</millis>
+  <nanos>452000</nanos>
+  <sequence>4</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.544778Z</date>
+  <millis>1709718415544</millis>
+  <nanos>778000</nanos>
+  <sequence>5</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.context.factory</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.545106Z</date>
+  <millis>1709718415545</millis>
+  <nanos>106000</nanos>
+  <sequence>6</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.545390Z</date>
+  <millis>1709718415545</millis>
+  <nanos>390000</nanos>
+  <sequence>7</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContext</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.545702Z</date>
+  <millis>1709718415545</millis>
+  <nanos>702000</nanos>
+  <sequence>8</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.546927Z</date>
+  <millis>1709718415546</millis>
+  <nanos>927000</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Searching META-INF/services</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.547907Z</date>
+  <millis>1709718415547</millis>
+  <nanos>907000</nanos>
+  <sequence>10</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Configured factorty class:com.sun.xml.bind.v2.ContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.549591Z</date>
+  <millis>1709718415549</millis>
+  <nanos>591000</nanos>
+  <sequence>11</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>newInstance</method>
+  <thread>1</thread>
+  <message>loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/Users/at/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/com/sun/xml/bind/v2/ContextFactory.class</message>
+</record>
+<record>
+  <date>2024-03-06T09:46:55.555879Z</date>
+  <millis>1709718415555</millis>
+  <nanos>879000</nanos>
+  <sequence>12</sequence>
+  <logger>com.sun.xml.bind.v2.ContextFactory</logger>
+  <level>FINE</level>
+  <class>com.sun.xml.bind.v2.ContextFactory</class>
+  <method>createContext</method>
+  <thread>1</thread>
+  <message>Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-06T12:59:39.328319Z</date>
+  <millis>1709729979328</millis>
+  <nanos>319000</nanos>
+  <sequence>0</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start program</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:40.866006Z</date>
+  <millis>1709729980866</millis>
+  <nanos>6000</nanos>
+  <sequence>1</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.UtilStatistics</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>[Профиль: Физика, средний балл: 4.54, кол-во студентов: 8, кол-во университетов: 2, названия универов: Московский Выдуманный Университет, Московский Придуманный Институт, Профиль: Медицина, средний балл: 4.33, кол-во студентов: 3, кол-во университетов: 3, названия универов: Московский Государственный Медицинский Университет, Тамбовский Университет Медицины, Самарский Медицинский Институт, Профиль: Лингвистика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Воронежский Литературно-Переводческий Университет, Профиль: Математика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Казанский Университет Вычислений]</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.099096Z</date>
+  <millis>1709729981099</millis>
+  <nanos>96000</nanos>
+  <sequence>2</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Searching jaxb.properties</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.100070Z</date>
+  <millis>1709729981100</millis>
+  <nanos>70000</nanos>
+  <sequence>3</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.102237Z</date>
+  <millis>1709729981102</millis>
+  <nanos>237000</nanos>
+  <sequence>4</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.102733Z</date>
+  <millis>1709729981102</millis>
+  <nanos>733000</nanos>
+  <sequence>5</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.context.factory</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.103280Z</date>
+  <millis>1709729981103</millis>
+  <nanos>280000</nanos>
+  <sequence>6</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.103730Z</date>
+  <millis>1709729981103</millis>
+  <nanos>730000</nanos>
+  <sequence>7</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContext</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.104359Z</date>
+  <millis>1709729981104</millis>
+  <nanos>359000</nanos>
+  <sequence>8</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.107493Z</date>
+  <millis>1709729981107</millis>
+  <nanos>493000</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Searching META-INF/services</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.109476Z</date>
+  <millis>1709729981109</millis>
+  <nanos>476000</nanos>
+  <sequence>10</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Configured factorty class:com.sun.xml.bind.v2.ContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.115122Z</date>
+  <millis>1709729981115</millis>
+  <nanos>122000</nanos>
+  <sequence>11</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>newInstance</method>
+  <thread>1</thread>
+  <message>loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/Users/at/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/com/sun/xml/bind/v2/ContextFactory.class</message>
+</record>
+<record>
+  <date>2024-03-06T12:59:41.124610Z</date>
+  <millis>1709729981124</millis>
+  <nanos>610000</nanos>
+  <sequence>12</sequence>
+  <logger>com.sun.xml.bind.v2.ContextFactory</logger>
+  <level>FINE</level>
+  <class>com.sun.xml.bind.v2.ContextFactory</class>
+  <method>createContext</method>
+  <thread>1</thread>
+  <message>Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-06T13:00:00.748588Z</date>
+  <millis>1709730000748</millis>
+  <nanos>588000</nanos>
+  <sequence>0</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start program</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:01.905177Z</date>
+  <millis>1709730001905</millis>
+  <nanos>177000</nanos>
+  <sequence>1</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.UtilStatistics</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>[Профиль: Физика, средний балл: 4.54, кол-во студентов: 8, кол-во университетов: 2, названия универов: Московский Выдуманный Университет, Московский Придуманный Институт, Профиль: Медицина, средний балл: 4.33, кол-во студентов: 3, кол-во университетов: 3, названия универов: Московский Государственный Медицинский Университет, Тамбовский Университет Медицины, Самарский Медицинский Институт, Профиль: Лингвистика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Воронежский Литературно-Переводческий Университет, Профиль: Математика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Казанский Университет Вычислений]</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.076609Z</date>
+  <millis>1709730002076</millis>
+  <nanos>609000</nanos>
+  <sequence>2</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Searching jaxb.properties</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.077409Z</date>
+  <millis>1709730002077</millis>
+  <nanos>409000</nanos>
+  <sequence>3</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.078355Z</date>
+  <millis>1709730002078</millis>
+  <nanos>355000</nanos>
+  <sequence>4</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.078871Z</date>
+  <millis>1709730002078</millis>
+  <nanos>871000</nanos>
+  <sequence>5</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.context.factory</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.079341Z</date>
+  <millis>1709730002079</millis>
+  <nanos>341000</nanos>
+  <sequence>6</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.079711Z</date>
+  <millis>1709730002079</millis>
+  <nanos>711000</nanos>
+  <sequence>7</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContext</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.080143Z</date>
+  <millis>1709730002080</millis>
+  <nanos>143000</nanos>
+  <sequence>8</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.081961Z</date>
+  <millis>1709730002081</millis>
+  <nanos>961000</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Searching META-INF/services</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.083740Z</date>
+  <millis>1709730002083</millis>
+  <nanos>740000</nanos>
+  <sequence>10</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Configured factorty class:com.sun.xml.bind.v2.ContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.085916Z</date>
+  <millis>1709730002085</millis>
+  <nanos>916000</nanos>
+  <sequence>11</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>newInstance</method>
+  <thread>1</thread>
+  <message>loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/Users/at/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/com/sun/xml/bind/v2/ContextFactory.class</message>
+</record>
+<record>
+  <date>2024-03-06T13:00:02.092436Z</date>
+  <millis>1709730002092</millis>
+  <nanos>436000</nanos>
+  <sequence>12</sequence>
+  <logger>com.sun.xml.bind.v2.ContextFactory</logger>
+  <level>FINE</level>
+  <class>com.sun.xml.bind.v2.ContextFactory</class>
+  <method>createContext</method>
+  <thread>1</thread>
+  <message>Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-06T13:01:49.899081Z</date>
+  <millis>1709730109899</millis>
+  <nanos>81000</nanos>
+  <sequence>0</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start program</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.051791Z</date>
+  <millis>1709730111051</millis>
+  <nanos>791000</nanos>
+  <sequence>1</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.UtilStatistics</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>[Профиль: Физика, средний балл: 4.54, кол-во студентов: 8, кол-во университетов: 2, названия универов: Московский Выдуманный Университет, Московский Придуманный Институт, Профиль: Медицина, средний балл: 4.33, кол-во студентов: 3, кол-во университетов: 3, названия универов: Московский Государственный Медицинский Университет, Тамбовский Университет Медицины, Самарский Медицинский Институт, Профиль: Лингвистика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Воронежский Литературно-Переводческий Университет, Профиль: Математика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Казанский Университет Вычислений]</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.240114Z</date>
+  <millis>1709730111240</millis>
+  <nanos>114000</nanos>
+  <sequence>2</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Searching jaxb.properties</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.240915Z</date>
+  <millis>1709730111240</millis>
+  <nanos>915000</nanos>
+  <sequence>3</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.241834Z</date>
+  <millis>1709730111241</millis>
+  <nanos>834000</nanos>
+  <sequence>4</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.242248Z</date>
+  <millis>1709730111242</millis>
+  <nanos>248000</nanos>
+  <sequence>5</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.context.factory</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.242680Z</date>
+  <millis>1709730111242</millis>
+  <nanos>680000</nanos>
+  <sequence>6</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.243035Z</date>
+  <millis>1709730111243</millis>
+  <nanos>35000</nanos>
+  <sequence>7</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContext</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.243478Z</date>
+  <millis>1709730111243</millis>
+  <nanos>478000</nanos>
+  <sequence>8</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.245059Z</date>
+  <millis>1709730111245</millis>
+  <nanos>59000</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Searching META-INF/services</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.246111Z</date>
+  <millis>1709730111246</millis>
+  <nanos>111000</nanos>
+  <sequence>10</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Configured factorty class:com.sun.xml.bind.v2.ContextFactory</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.247859Z</date>
+  <millis>1709730111247</millis>
+  <nanos>859000</nanos>
+  <sequence>11</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>newInstance</method>
+  <thread>1</thread>
+  <message>loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/Users/at/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/com/sun/xml/bind/v2/ContextFactory.class</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.255088Z</date>
+  <millis>1709730111255</millis>
+  <nanos>88000</nanos>
+  <sequence>12</sequence>
+  <logger>com.sun.xml.bind.v2.ContextFactory</logger>
+  <level>FINE</level>
+  <class>com.sun.xml.bind.v2.ContextFactory</class>
+  <method>createContext</method>
+  <thread>1</thread>
+  <message>Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation</message>
+</record>
+<record>
+  <date>2024-03-06T13:01:51.381068Z</date>
+  <millis>1709730111381</millis>
+  <nanos>68000</nanos>
+  <sequence>13</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>End program</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-07T05:00:08.941979Z</date>
+  <millis>1709787608941</millis>
+  <nanos>979000</nanos>
+  <sequence>0</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start program</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.022950Z</date>
+  <millis>1709787610022</millis>
+  <nanos>950000</nanos>
+  <sequence>1</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.UtilStatistics</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>[Профиль: Физика, средний балл: 4.54, кол-во студентов: 8, кол-во университетов: 2, названия универов: Московский Выдуманный Университет, Московский Придуманный Институт, Профиль: Медицина, средний балл: 4.33, кол-во студентов: 3, кол-во университетов: 3, названия универов: Московский Государственный Медицинский Университет, Тамбовский Университет Медицины, Самарский Медицинский Институт, Профиль: Лингвистика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Воронежский Литературно-Переводческий Университет, Профиль: Математика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Казанский Университет Вычислений]</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.225382Z</date>
+  <millis>1709787610225</millis>
+  <nanos>382000</nanos>
+  <sequence>2</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Searching jaxb.properties</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.226200Z</date>
+  <millis>1709787610226</millis>
+  <nanos>200000</nanos>
+  <sequence>3</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContextFactory</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.227443Z</date>
+  <millis>1709787610227</millis>
+  <nanos>443000</nanos>
+  <sequence>4</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.228087Z</date>
+  <millis>1709787610228</millis>
+  <nanos>87000</nanos>
+  <sequence>5</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.context.factory</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.228520Z</date>
+  <millis>1709787610228</millis>
+  <nanos>520000</nanos>
+  <sequence>6</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.228740Z</date>
+  <millis>1709787610228</millis>
+  <nanos>740000</nanos>
+  <sequence>7</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContext</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.229157Z</date>
+  <millis>1709787610229</millis>
+  <nanos>157000</nanos>
+  <sequence>8</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.231487Z</date>
+  <millis>1709787610231</millis>
+  <nanos>487000</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Searching META-INF/services</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.233141Z</date>
+  <millis>1709787610233</millis>
+  <nanos>141000</nanos>
+  <sequence>10</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Configured factorty class:com.sun.xml.bind.v2.ContextFactory</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.236555Z</date>
+  <millis>1709787610236</millis>
+  <nanos>555000</nanos>
+  <sequence>11</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>newInstance</method>
+  <thread>1</thread>
+  <message>loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/Users/at/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/com/sun/xml/bind/v2/ContextFactory.class</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.244267Z</date>
+  <millis>1709787610244</millis>
+  <nanos>267000</nanos>
+  <sequence>12</sequence>
+  <logger>com.sun.xml.bind.v2.ContextFactory</logger>
+  <level>FINE</level>
+  <class>com.sun.xml.bind.v2.ContextFactory</class>
+  <method>createContext</method>
+  <thread>1</thread>
+  <message>Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:10.385370Z</date>
+  <millis>1709787610385</millis>
+  <nanos>370000</nanos>
+  <sequence>13</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>End program</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-07T05:00:35.295301Z</date>
+  <millis>1709787635295</millis>
+  <nanos>301000</nanos>
+  <sequence>0</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start program</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.085756Z</date>
+  <millis>1709787636085</millis>
+  <nanos>756000</nanos>
+  <sequence>1</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.UtilStatistics</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>[Профиль: Физика, средний балл: 4.54, кол-во студентов: 8, кол-во университетов: 2, названия универов: Московский Выдуманный Университет, Московский Придуманный Институт, Профиль: Медицина, средний балл: 4.33, кол-во студентов: 3, кол-во университетов: 3, названия универов: Московский Государственный Медицинский Университет, Тамбовский Университет Медицины, Самарский Медицинский Институт, Профиль: Лингвистика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Воронежский Литературно-Переводческий Университет, Профиль: Математика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Казанский Университет Вычислений]</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.235849Z</date>
+  <millis>1709787636235</millis>
+  <nanos>849000</nanos>
+  <sequence>2</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Searching jaxb.properties</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.236610Z</date>
+  <millis>1709787636236</millis>
+  <nanos>610000</nanos>
+  <sequence>3</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContextFactory</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.237693Z</date>
+  <millis>1709787636237</millis>
+  <nanos>693000</nanos>
+  <sequence>4</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.238081Z</date>
+  <millis>1709787636238</millis>
+  <nanos>81000</nanos>
+  <sequence>5</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.context.factory</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.238483Z</date>
+  <millis>1709787636238</millis>
+  <nanos>483000</nanos>
+  <sequence>6</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.238812Z</date>
+  <millis>1709787636238</millis>
+  <nanos>812000</nanos>
+  <sequence>7</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>Checking system property javax.xml.bind.JAXBContext</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.239214Z</date>
+  <millis>1709787636239</millis>
+  <nanos>214000</nanos>
+  <sequence>8</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getSystemProperty</method>
+  <thread>1</thread>
+  <message>  not found</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.240587Z</date>
+  <millis>1709787636240</millis>
+  <nanos>587000</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Searching META-INF/services</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.241425Z</date>
+  <millis>1709787636241</millis>
+  <nanos>425000</nanos>
+  <sequence>10</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>firstByServiceLoaderDeprecated</method>
+  <thread>1</thread>
+  <message>Configured factorty class:com.sun.xml.bind.v2.ContextFactory</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.242942Z</date>
+  <millis>1709787636242</millis>
+  <nanos>942000</nanos>
+  <sequence>11</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>FINE</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>newInstance</method>
+  <thread>1</thread>
+  <message>loaded com.sun.xml.bind.v2.ContextFactory from jar:file:/Users/at/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/com/sun/xml/bind/v2/ContextFactory.class</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.249821Z</date>
+  <millis>1709787636249</millis>
+  <nanos>821000</nanos>
+  <sequence>12</sequence>
+  <logger>com.sun.xml.bind.v2.ContextFactory</logger>
+  <level>FINE</level>
+  <class>com.sun.xml.bind.v2.ContextFactory</class>
+  <method>createContext</method>
+  <thread>1</thread>
+  <message>Property com.sun.xml.bind.XmlAccessorFactoryis not active.  Using JAXB's implementation</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:36.338541Z</date>
+  <millis>1709787636338</millis>
+  <nanos>541000</nanos>
+  <sequence>13</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>End program</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-07T05:00:48.850330Z</date>
+  <millis>1709787648850</millis>
+  <nanos>330000</nanos>
+  <sequence>0</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start program</message>
+</record>
+<record>
+  <date>2024-03-07T05:00:49.639144Z</date>
+  <millis>1709787649639</millis>
+  <nanos>144000</nanos>
+  <sequence>1</sequence>
+  <logger>org.University.Main</logger>
+  <level>INFO</level>
+  <class>org.University.UtilStatistics</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>[Профиль: Физика, средний балл: 4.54, кол-во студентов: 8, кол-во университетов: 2, названия универов: Московский Выдуманный Университет, Московский Придуманный Институт, Профиль: Медицина, средний балл: 4.33, кол-во студентов: 3, кол-во университетов: 3, названия универов: Московский Государственный Медицинский Университет, Тамбовский Университет Медицины, Самарский Медицинский Институт, Профиль: Лингвистика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Воронежский Литературно-Переводческий Университет, Профиль: Математика, средний балл: 0.0, кол-во студентов: 0, кол-во университетов: 1, названия универов: Казанский Университет Вычислений]</message>
+</record>
+</log>
